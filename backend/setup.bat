@@ -1,0 +1,1 @@
+C:\OSGeo4W\apps\Python39\python server.py

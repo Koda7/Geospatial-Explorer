@@ -1,0 +1,136 @@
+Chrome,
+Safari,
+Edge,
+Opera input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.MuiGrid-root.query-toolbar {
+  z-index: 999;
+  width: auto;
+  position: absolute;
+  top: 1rem;
+  left: 10rem;
+}
+
+.query-button {
+  padding: 1rem 2rem;
+  color: black;
+  background: #f5f5f5;
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  box-shadow: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.MuiGrid-root.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  max-width: 95%;
+  overflow: inherit;
+  background: white;
+}
+
+.filter-column {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.filter-heading {
+  font-family: "Poppins";
+  font-weight: 400;
+  padding-left: 4px;
+}
+
+.filter-label .MuiOutlinedInput-root {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.filter-label .MuiInput-root {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.filter-label .MuiSelect-select {
+  padding-right: 0px;
+}
+
+.MuiGrid-root.filter-button {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.query {
+  background: #f5f5f5;
+  font-family: "Poppins";
+  padding: 0.5rem 1rem;
+}
+
+.make-query {
+  font-family: "Poppins";
+  font-size: 1.5rem;
+  background: #f5f5f5;
+  padding: 0.5rem 1rem;
+  display: inline;
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  border-radius: 4px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.suburb-name {
+  z-index: 999;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  left: 0rem;
+  color: white;
+  font-family: "Poppins";
+  background: #ff5858;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+.instructions {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 250px;
+  z-index: 1000;
+}
+
+.instructions h3 {
+  margin-top: 0;
+}
+
+.instructions ul {
+  padding-left: 20px;
+}
+
+.make-query.disabled {
+  pointer-events: none;
+  opacity: 0.5;  /* Optional: you can adjust the opacity or other styles for the disabled state */
+}
